@@ -1,5 +1,6 @@
-function solve(month, year){
-    console.log(Date(month, year))
-}
+function getDaysInMonth(month,year) {
+   let date = new Date(year, month, 0).getDate();
+   console.log(date);
+};
 
-solve(1, 2012)
+getDaysInMonth(1, 2012);
